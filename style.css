@@ -1,0 +1,62 @@
+.container {
+  height: 100vh;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 1rem;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+h1:hover {
+  color: red;
+  transform: scale(1.1);
+  text-decoration: underline solid black;
+}
+input {
+  display: block;
+  width: 50%;
+  height: 8%;
+  color: rgb(33, 23, 168);
+  margin: auto;
+}
+img {
+  display: none;
+  margin: 20px auto;
+}
+p {
+  text-align: center;
+  font: 400;
+  font-size: x-large;
+  color: coral;
+}
+span {
+  color: red;
+}
+input::placeholder {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  color: orange;
+}
+button {
+  height: 45px;
+  width: 150px;
+  border-radius: 2rem;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+
+  color: white;
+  background-image: linear-gradient(to right, #753682 0%, #bf2e34 100%);
+}
